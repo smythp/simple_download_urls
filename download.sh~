@@ -1,0 +1,4 @@
+for url in $(cat urls)
+do
+wget $url
+done
